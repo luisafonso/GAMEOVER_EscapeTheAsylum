@@ -1,0 +1,1002 @@
+HIERARCHY
+ROOT hips
+{
+	OFFSET	0.000000  0.559767  0.132042
+	CHANNELS 6 Xposition Yposition Zposition Zrotation Xrotation Yrotation
+	JOINT __gluteus.L
+	{
+		OFFSET	-0.000000  1.460300  -0.233158
+		CHANNELS 3 Zrotation Xrotation Yrotation
+		JOINT gluteus.L
+		{
+			OFFSET	1.013817  -1.541167  0.150421
+			CHANNELS 3 Zrotation Xrotation Yrotation
+				End Site
+				{
+					OFFSET	0.00261676	-0.0124333	-0.889838
+				}
+		}
+	}
+	JOINT __thigh.L
+	{
+		OFFSET	-0.000000  1.460300  -0.233158
+		CHANNELS 3 Zrotation Xrotation Yrotation
+		JOINT thigh.L
+		{
+			OFFSET	1.013817  -1.541167  0.150421
+			CHANNELS 3 Zrotation Xrotation Yrotation
+			JOINT __quadriceps.L
+			{
+				OFFSET	0.411021  -3.909496  0.324487
+				CHANNELS 3 Zrotation Xrotation Yrotation
+				JOINT quadriceps.L
+				{
+					OFFSET	-0.018987  1.519471  0.447183
+					CHANNELS 3 Zrotation Xrotation Yrotation
+						End Site
+						{
+							OFFSET	-0.266223	2.94996	-0.139608
+						}
+				}
+			}
+			JOINT __femoris.L
+			{
+				OFFSET	0.411021  -3.909496  0.324487
+				CHANNELS 3 Zrotation Xrotation Yrotation
+				JOINT femoris.L
+				{
+					OFFSET	-0.318971  2.881809  -0.533385
+					CHANNELS 3 Zrotation Xrotation Yrotation
+						End Site
+						{
+							OFFSET	0.190345	-1.7694	0.254786
+						}
+				}
+			}
+			JOINT __gluteus0.L
+			{
+				OFFSET	0.411021  -3.909496  0.324487
+				CHANNELS 3 Zrotation Xrotation Yrotation
+				JOINT gluteus0.L
+				{
+					OFFSET	-0.411021  3.909496  -0.324487
+					CHANNELS 3 Zrotation Xrotation Yrotation
+						End Site
+						{
+							OFFSET	0.00261676	-0.0124333	-0.889838
+						}
+				}
+			}
+			JOINT knee_fan.L
+			{
+				OFFSET	0.411021  -3.909496  0.324487
+				CHANNELS 3 Zrotation Xrotation Yrotation
+					End Site
+					{
+						OFFSET	0.114296	-1.21666	-0.0440987
+					}
+			}
+			JOINT shin.L
+			{
+				OFFSET	0.411021  -3.909496  0.324487
+				CHANNELS 3 Zrotation Xrotation Yrotation
+				JOINT __soleus.L
+				{
+					OFFSET	0.380988  -4.055525  -0.146996
+					CHANNELS 3 Zrotation Xrotation Yrotation
+					JOINT soleus.L
+					{
+						OFFSET	-0.265742  3.559954  -0.148729
+						CHANNELS 3 Zrotation Xrotation Yrotation
+							End Site
+							{
+								OFFSET	0.129153	-1.67916	-0.102933
+							}
+					}
+				}
+				JOINT foot.L
+				{
+					OFFSET	0.380988  -4.055525  -0.146996
+					CHANNELS 3 Zrotation Xrotation Yrotation
+					JOINT toe.L
+					{
+						OFFSET	0.054650  -0.601776  1.167988
+						CHANNELS 3 Zrotation Xrotation Yrotation
+							End Site
+							{
+								OFFSET	0.0224165	0.0	0.768667
+							}
+					}
+					JOINT sole.L
+					{
+						OFFSET	0.054650  -0.601776  1.167988
+						CHANNELS 3 Zrotation Xrotation Yrotation
+							End Site
+							{
+								OFFSET	0.00249159	-0.0361691	-1.57405
+							}
+					}
+				}
+			}
+		}
+	}
+	JOINT __thigh.R
+	{
+		OFFSET	-0.000000  1.460300  -0.233158
+		CHANNELS 3 Zrotation Xrotation Yrotation
+		JOINT thigh.R
+		{
+			OFFSET	-1.013817  -1.541167  0.150421
+			CHANNELS 3 Zrotation Xrotation Yrotation
+			JOINT __quadriceps.R
+			{
+				OFFSET	-0.411021  -3.909496  0.324487
+				CHANNELS 3 Zrotation Xrotation Yrotation
+				JOINT quadriceps.R
+				{
+					OFFSET	0.018987  1.519471  0.447183
+					CHANNELS 3 Zrotation Xrotation Yrotation
+						End Site
+						{
+							OFFSET	0.266223	2.94996	-0.139608
+						}
+				}
+			}
+			JOINT __femoris.R
+			{
+				OFFSET	-0.411021  -3.909496  0.324487
+				CHANNELS 3 Zrotation Xrotation Yrotation
+				JOINT femoris.R
+				{
+					OFFSET	0.318971  2.881809  -0.533385
+					CHANNELS 3 Zrotation Xrotation Yrotation
+						End Site
+						{
+							OFFSET	-0.190345	-1.7694	0.254786
+						}
+				}
+			}
+			JOINT __gluteus0.R
+			{
+				OFFSET	-0.411021  -3.909496  0.324487
+				CHANNELS 3 Zrotation Xrotation Yrotation
+				JOINT gluteus0.R
+				{
+					OFFSET	0.411021  3.909496  -0.324487
+					CHANNELS 3 Zrotation Xrotation Yrotation
+						End Site
+						{
+							OFFSET	-0.00261676	-0.0124333	-0.889838
+						}
+				}
+			}
+			JOINT knee_fan.R
+			{
+				OFFSET	-0.411021  -3.909496  0.324487
+				CHANNELS 3 Zrotation Xrotation Yrotation
+					End Site
+					{
+						OFFSET	-0.114296	-1.21666	-0.0440987
+					}
+			}
+			JOINT shin.R
+			{
+				OFFSET	-0.411021  -3.909496  0.324487
+				CHANNELS 3 Zrotation Xrotation Yrotation
+				JOINT __soleus.R
+				{
+					OFFSET	-0.380988  -4.055525  -0.146996
+					CHANNELS 3 Zrotation Xrotation Yrotation
+					JOINT soleus.R
+					{
+						OFFSET	0.265742  3.559954  -0.148729
+						CHANNELS 3 Zrotation Xrotation Yrotation
+							End Site
+							{
+								OFFSET	-0.129153	-1.67916	-0.102933
+							}
+					}
+				}
+				JOINT foot.R
+				{
+					OFFSET	-0.380988  -4.055525  -0.146996
+					CHANNELS 3 Zrotation Xrotation Yrotation
+					JOINT toe.R
+					{
+						OFFSET	-0.054650  -0.601776  1.167988
+						CHANNELS 3 Zrotation Xrotation Yrotation
+							End Site
+							{
+								OFFSET	-0.0224165	0.0	0.768667
+							}
+					}
+					JOINT sole.R
+					{
+						OFFSET	-0.054650  -0.601776  1.167988
+						CHANNELS 3 Zrotation Xrotation Yrotation
+							End Site
+							{
+								OFFSET	-0.00249159	-0.0361691	-1.57405
+							}
+					}
+				}
+			}
+		}
+	}
+	JOINT __hipside.L
+	{
+		OFFSET	-0.000000  1.460300  -0.233158
+		CHANNELS 3 Zrotation Xrotation Yrotation
+		JOINT hipside.L
+		{
+			OFFSET	0.000000  -1.954043  1.031750
+			CHANNELS 3 Zrotation Xrotation Yrotation
+				End Site
+				{
+					OFFSET	1.13963	0.97281	-0.249267
+				}
+		}
+	}
+	JOINT spine
+	{
+		OFFSET	-0.000000  1.460300  -0.233158
+		CHANNELS 3 Zrotation Xrotation Yrotation
+		JOINT spine-1
+		{
+			OFFSET	0.000000  0.375271  0.008658
+			CHANNELS 3 Zrotation Xrotation Yrotation
+			JOINT chest
+			{
+				OFFSET	0.000000  0.375271  0.008658
+				CHANNELS 3 Zrotation Xrotation Yrotation
+				JOINT chest-1
+				{
+					OFFSET	0.000000  1.439192  -0.103200
+					CHANNELS 3 Zrotation Xrotation Yrotation
+					JOINT __clavicle.R
+					{
+						OFFSET	0.000000  1.749783  0.238133
+						CHANNELS 3 Zrotation Xrotation Yrotation
+						JOINT clavicle.R
+						{
+							OFFSET	-0.268863  -0.719733  0.638575
+							CHANNELS 3 Zrotation Xrotation Yrotation
+							JOINT deltoid.R
+							{
+								OFFSET	-0.932633  0.273663  -0.397717
+								CHANNELS 3 Zrotation Xrotation Yrotation
+								JOINT upper_arm.R
+								{
+									OFFSET	-0.477233  -0.479171  -0.098879
+									CHANNELS 3 Zrotation Xrotation Yrotation
+									JOINT elbow_fan.R
+									{
+										OFFSET	-1.634779  -1.818946  0.008150
+										CHANNELS 3 Zrotation Xrotation Yrotation
+											End Site
+											{
+												OFFSET	-0.365896	-0.372688	0.489536
+											}
+									}
+									JOINT __lat_dorsi.R
+									{
+										OFFSET	-1.634779  -1.818946  0.008150
+										CHANNELS 3 Zrotation Xrotation Yrotation
+										JOINT lat_dorsi.R
+										{
+											OFFSET	1.471301  1.637051  -0.007335
+											CHANNELS 3 Zrotation Xrotation Yrotation
+												End Site
+												{
+													OFFSET	1.84221	-2.83238	-0.295044
+												}
+										}
+									}
+									JOINT forearm.R
+									{
+										OFFSET	-1.634779  -1.818946  0.008150
+										CHANNELS 3 Zrotation Xrotation Yrotation
+										JOINT hand.R
+										{
+											OFFSET	-1.219654  -1.242292  1.631787
+											CHANNELS 3 Zrotation Xrotation Yrotation
+											JOINT __palm_pinky.R
+											{
+												OFFSET	-0.284271  -0.678071  0.824650
+												CHANNELS 3 Zrotation Xrotation Yrotation
+												JOINT palm_pinky.R
+												{
+													OFFSET	0.072683  0.327666  -0.704267
+													CHANNELS 3 Zrotation Xrotation Yrotation
+													JOINT f_pinky.01.R
+													{
+														OFFSET	-0.284692  -0.343454  0.250521
+														CHANNELS 3 Zrotation Xrotation Yrotation
+														JOINT f_pinky.02.R
+														{
+															OFFSET	-0.064783  -0.195154  0.094925
+															CHANNELS 3 Zrotation Xrotation Yrotation
+															JOINT f_pinky.03.R
+															{
+																OFFSET	-0.024250  -0.135513  0.058050
+																CHANNELS 3 Zrotation Xrotation Yrotation
+																	End Site
+																	{
+																		OFFSET	-0.0283918	-0.177508	0.0685709
+																	}
+															}
+														}
+													}
+												}
+											}
+											JOINT __palm_middle.R
+											{
+												OFFSET	-0.284271  -0.678071  0.824650
+												CHANNELS 3 Zrotation Xrotation Yrotation
+												JOINT palm_middle.R
+												{
+													OFFSET	0.164150  0.483400  -0.581400
+													CHANNELS 3 Zrotation Xrotation Yrotation
+													JOINT f_middle.01.R
+													{
+														OFFSET	-0.231558  -0.384596  0.506154
+														CHANNELS 3 Zrotation Xrotation Yrotation
+														JOINT f_middle.02.R
+														{
+															OFFSET	-0.109713  -0.233625  0.214188
+															CHANNELS 3 Zrotation Xrotation Yrotation
+															JOINT f_middle.03.R
+															{
+																OFFSET	-0.036287  -0.200621  0.166308
+																CHANNELS 3 Zrotation Xrotation Yrotation
+																	End Site
+																	{
+																		OFFSET	-0.0393372	-0.201358	0.15955
+																	}
+															}
+														}
+													}
+												}
+											}
+											JOINT __palm_ring.R
+											{
+												OFFSET	-0.284271  -0.678071  0.824650
+												CHANNELS 3 Zrotation Xrotation Yrotation
+												JOINT palm_ring.R
+												{
+													OFFSET	0.111816  0.388283  -0.667666
+													CHANNELS 3 Zrotation Xrotation Yrotation
+													JOINT f_ring.01.R
+													{
+														OFFSET	-0.272058  -0.347162  0.411846
+														CHANNELS 3 Zrotation Xrotation Yrotation
+														JOINT f_ring.02.R
+														{
+															OFFSET	-0.121155  -0.224379  0.151004
+															CHANNELS 3 Zrotation Xrotation Yrotation
+															JOINT f_ring.03.R
+															{
+																OFFSET	-0.050292  -0.206962  0.129725
+																CHANNELS 3 Zrotation Xrotation Yrotation
+																	End Site
+																	{
+																		OFFSET	-0.0594292	-0.218679	0.122925
+																	}
+															}
+														}
+													}
+												}
+											}
+											JOINT __thumb.01.R
+											{
+												OFFSET	-0.284271  -0.678071  0.824650
+												CHANNELS 3 Zrotation Xrotation Yrotation
+												JOINT thumb.01.R
+												{
+													OFFSET	0.273296  0.602733  -0.386000
+													CHANNELS 3 Zrotation Xrotation Yrotation
+													JOINT thumb.02.R
+													{
+														OFFSET	0.200354  -0.111142  0.214583
+														CHANNELS 3 Zrotation Xrotation Yrotation
+														JOINT thumb.03.R
+														{
+															OFFSET	0.116696  -0.165829  0.319033
+															CHANNELS 3 Zrotation Xrotation Yrotation
+																End Site
+																{
+																	OFFSET	0.0708332	-0.123308	0.199475
+																}
+														}
+													}
+												}
+											}
+											JOINT __palm_index.R
+											{
+												OFFSET	-0.284271  -0.678071  0.824650
+												CHANNELS 3 Zrotation Xrotation Yrotation
+												JOINT palm_index.R
+												{
+													OFFSET	0.242984  0.546267  -0.524550
+													CHANNELS 3 Zrotation Xrotation Yrotation
+													JOINT f_index.01.R
+													{
+														OFFSET	-0.191609  -0.302554  0.628908
+														CHANNELS 3 Zrotation Xrotation Yrotation
+														JOINT f_index.02.R
+														{
+															OFFSET	-0.037945  -0.150733  0.215083
+															CHANNELS 3 Zrotation Xrotation Yrotation
+															JOINT f_index.03.R
+															{
+																OFFSET	-0.002363  -0.164258  0.172396
+																CHANNELS 3 Zrotation Xrotation Yrotation
+																	End Site
+																	{
+																		OFFSET	0.0043416	-0.17175	0.1734
+																	}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+							JOINT __scapula.R
+							{
+								OFFSET	-0.932633  0.273663  -0.397717
+								CHANNELS 3 Zrotation Xrotation Yrotation
+								JOINT scapula.R
+								{
+									OFFSET	-0.107979  -0.352871  -0.526108
+									CHANNELS 3 Zrotation Xrotation Yrotation
+										End Site
+										{
+											OFFSET	0.654737	-0.475421	0.0235583
+										}
+								}
+							}
+						}
+					}
+					JOINT __clavicle.L
+					{
+						OFFSET	0.000000  1.749783  0.238133
+						CHANNELS 3 Zrotation Xrotation Yrotation
+						JOINT clavicle.L
+						{
+							OFFSET	0.268863  -0.719733  0.638575
+							CHANNELS 3 Zrotation Xrotation Yrotation
+							JOINT deltoid.L
+							{
+								OFFSET	0.932633  0.273663  -0.397717
+								CHANNELS 3 Zrotation Xrotation Yrotation
+								JOINT upper_arm.L
+								{
+									OFFSET	0.477233  -0.479171  -0.098879
+									CHANNELS 3 Zrotation Xrotation Yrotation
+									JOINT elbow_fan.L
+									{
+										OFFSET	1.634779  -1.818946  0.008150
+										CHANNELS 3 Zrotation Xrotation Yrotation
+											End Site
+											{
+												OFFSET	0.365896	-0.372688	0.489536
+											}
+									}
+									JOINT __lat_dorsi.L
+									{
+										OFFSET	1.634779  -1.818946  0.008150
+										CHANNELS 3 Zrotation Xrotation Yrotation
+										JOINT lat_dorsi.L
+										{
+											OFFSET	-1.471301  1.637051  -0.007335
+											CHANNELS 3 Zrotation Xrotation Yrotation
+												End Site
+												{
+													OFFSET	-1.84221	-2.83238	-0.295044
+												}
+										}
+									}
+									JOINT forearm.L
+									{
+										OFFSET	1.634779  -1.818946  0.008150
+										CHANNELS 3 Zrotation Xrotation Yrotation
+										JOINT hand.L
+										{
+											OFFSET	1.219654  -1.242292  1.631787
+											CHANNELS 3 Zrotation Xrotation Yrotation
+											JOINT __palm_pinky.L
+											{
+												OFFSET	0.284271  -0.678071  0.824650
+												CHANNELS 3 Zrotation Xrotation Yrotation
+												JOINT palm_pinky.L
+												{
+													OFFSET	-0.076233  0.348150  -0.687233
+													CHANNELS 3 Zrotation Xrotation Yrotation
+													JOINT f_pinky.01.L
+													{
+														OFFSET	0.288241  -0.363937  0.233487
+														CHANNELS 3 Zrotation Xrotation Yrotation
+														JOINT f_pinky.02.L
+														{
+															OFFSET	0.064783  -0.195154  0.094925
+															CHANNELS 3 Zrotation Xrotation Yrotation
+															JOINT f_pinky.03.L
+															{
+																OFFSET	0.024250  -0.135513  0.058050
+																CHANNELS 3 Zrotation Xrotation Yrotation
+																	End Site
+																	{
+																		OFFSET	0.0283918	-0.177508	0.0685709
+																	}
+															}
+														}
+													}
+												}
+											}
+											JOINT __palm_middle.L
+											{
+												OFFSET	0.284271  -0.678071  0.824650
+												CHANNELS 3 Zrotation Xrotation Yrotation
+												JOINT palm_middle.L
+												{
+													OFFSET	-0.164150  0.483400  -0.581400
+													CHANNELS 3 Zrotation Xrotation Yrotation
+													JOINT f_middle.01.L
+													{
+														OFFSET	0.231558  -0.384596  0.506154
+														CHANNELS 3 Zrotation Xrotation Yrotation
+														JOINT f_middle.02.L
+														{
+															OFFSET	0.109713  -0.233625  0.214188
+															CHANNELS 3 Zrotation Xrotation Yrotation
+															JOINT f_middle.03.L
+															{
+																OFFSET	0.036287  -0.200621  0.166308
+																CHANNELS 3 Zrotation Xrotation Yrotation
+																	End Site
+																	{
+																		OFFSET	0.0393372	-0.201358	0.15955
+																	}
+															}
+														}
+													}
+												}
+											}
+											JOINT __palm_index.L
+											{
+												OFFSET	0.284271  -0.678071  0.824650
+												CHANNELS 3 Zrotation Xrotation Yrotation
+												JOINT palm_index.L
+												{
+													OFFSET	-0.242984  0.546267  -0.524550
+													CHANNELS 3 Zrotation Xrotation Yrotation
+													JOINT f_index.01.L
+													{
+														OFFSET	0.191609  -0.302554  0.628908
+														CHANNELS 3 Zrotation Xrotation Yrotation
+														JOINT f_index.02.L
+														{
+															OFFSET	0.037945  -0.150733  0.215083
+															CHANNELS 3 Zrotation Xrotation Yrotation
+															JOINT f_index.03.L
+															{
+																OFFSET	0.002363  -0.164258  0.172396
+																CHANNELS 3 Zrotation Xrotation Yrotation
+																	End Site
+																	{
+																		OFFSET	-0.0043416	-0.17175	0.1734
+																	}
+															}
+														}
+													}
+												}
+											}
+											JOINT __palm_ring.L
+											{
+												OFFSET	0.284271  -0.678071  0.824650
+												CHANNELS 3 Zrotation Xrotation Yrotation
+												JOINT palm_ring.L
+												{
+													OFFSET	-0.117916  0.409883  -0.649400
+													CHANNELS 3 Zrotation Xrotation Yrotation
+													JOINT f_ring.01.L
+													{
+														OFFSET	0.278157  -0.368762  0.393579
+														CHANNELS 3 Zrotation Xrotation Yrotation
+														JOINT f_ring.02.L
+														{
+															OFFSET	0.121155  -0.224379  0.151004
+															CHANNELS 3 Zrotation Xrotation Yrotation
+															JOINT f_ring.03.L
+															{
+																OFFSET	0.050292  -0.206962  0.129725
+																CHANNELS 3 Zrotation Xrotation Yrotation
+																	End Site
+																	{
+																		OFFSET	0.0594292	-0.218679	0.122925
+																	}
+															}
+														}
+													}
+												}
+											}
+											JOINT __thumb.01.L
+											{
+												OFFSET	0.284271  -0.678071  0.824650
+												CHANNELS 3 Zrotation Xrotation Yrotation
+												JOINT thumb.01.L
+												{
+													OFFSET	-0.273296  0.602733  -0.386000
+													CHANNELS 3 Zrotation Xrotation Yrotation
+													JOINT thumb.02.L
+													{
+														OFFSET	-0.200354  -0.111142  0.214583
+														CHANNELS 3 Zrotation Xrotation Yrotation
+														JOINT thumb.03.L
+														{
+															OFFSET	-0.116696  -0.165829  0.319033
+															CHANNELS 3 Zrotation Xrotation Yrotation
+																End Site
+																{
+																	OFFSET	-0.0708332	-0.123308	0.199475
+																}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+							JOINT __scapula.L
+							{
+								OFFSET	0.932633  0.273663  -0.397717
+								CHANNELS 3 Zrotation Xrotation Yrotation
+								JOINT scapula.L
+								{
+									OFFSET	0.107979  -0.352871  -0.526108
+									CHANNELS 3 Zrotation Xrotation Yrotation
+										End Site
+										{
+											OFFSET	-0.654737	-0.475421	0.0235583
+										}
+								}
+							}
+						}
+					}
+					JOINT __breast.L
+					{
+						OFFSET	0.000000  1.749783  0.238133
+						CHANNELS 3 Zrotation Xrotation Yrotation
+						JOINT breast.L
+						{
+							OFFSET	1.018647  -2.011983  0.600393
+							CHANNELS 3 Zrotation Xrotation Yrotation
+								End Site
+								{
+									OFFSET	-0.0185467	-0.0754669	0.830573
+								}
+						}
+					}
+					JOINT __breast.R
+					{
+						OFFSET	0.000000  1.749783  0.238133
+						CHANNELS 3 Zrotation Xrotation Yrotation
+						JOINT breast.R
+						{
+							OFFSET	-1.018647  -2.011983  0.600393
+							CHANNELS 3 Zrotation Xrotation Yrotation
+								End Site
+								{
+									OFFSET	0.0185467	-0.0754669	0.830573
+								}
+						}
+					}
+					JOINT __trapezius2.L
+					{
+						OFFSET	0.000000  1.749783  0.238133
+						CHANNELS 3 Zrotation Xrotation Yrotation
+						JOINT trapezius2.L
+						{
+							OFFSET	0.211600  -1.398733  -0.475793
+							CHANNELS 3 Zrotation Xrotation Yrotation
+								End Site
+								{
+									OFFSET	0.989896	0.952662	0.716652
+								}
+						}
+					}
+					JOINT __trapezius2.R
+					{
+						OFFSET	0.000000  1.749783  0.238133
+						CHANNELS 3 Zrotation Xrotation Yrotation
+						JOINT trapezius2.R
+						{
+							OFFSET	-0.211600  -1.398733  -0.475793
+							CHANNELS 3 Zrotation Xrotation Yrotation
+								End Site
+								{
+									OFFSET	-0.989896	0.952662	0.716652
+								}
+						}
+					}
+					JOINT __stomach
+					{
+						OFFSET	0.000000  1.749783  0.238133
+						CHANNELS 3 Zrotation Xrotation Yrotation
+						JOINT stomach
+						{
+							OFFSET	0.000000  -1.994657  1.084027
+							CHANNELS 3 Zrotation Xrotation Yrotation
+								End Site
+								{
+									OFFSET	0.0	-3.8989	-0.204527
+								}
+						}
+					}
+					JOINT __pectoralis.R
+					{
+						OFFSET	0.000000  1.749783  0.238133
+						CHANNELS 3 Zrotation Xrotation Yrotation
+						JOINT pectoralis.R
+						{
+							OFFSET	-0.132940  -1.810677  1.068303
+							CHANNELS 3 Zrotation Xrotation Yrotation
+								End Site
+								{
+									OFFSET	-1.70927	0.703541	-0.925509
+								}
+						}
+					}
+					JOINT __pectoralis.L
+					{
+						OFFSET	0.000000  1.749783  0.238133
+						CHANNELS 3 Zrotation Xrotation Yrotation
+						JOINT pectoralis.L
+						{
+							OFFSET	0.132940  -1.810677  1.068303
+							CHANNELS 3 Zrotation Xrotation Yrotation
+								End Site
+								{
+									OFFSET	1.70927	0.703541	-0.925509
+								}
+						}
+					}
+					JOINT neck
+					{
+						OFFSET	0.000000  1.749783  0.238133
+						CHANNELS 3 Zrotation Xrotation Yrotation
+						JOINT __trapezius1.R
+						{
+							OFFSET	-0.000000  1.107700  0.018908
+							CHANNELS 3 Zrotation Xrotation Yrotation
+							JOINT trapezius1.R
+							{
+								OFFSET	-0.073380  -0.393423  -0.131335
+								CHANNELS 3 Zrotation Xrotation Yrotation
+									End Site
+									{
+										OFFSET	-1.12812	-1.16035	0.353285
+									}
+							}
+						}
+						JOINT __trapezius1.L
+						{
+							OFFSET	-0.000000  1.107700  0.018908
+							CHANNELS 3 Zrotation Xrotation Yrotation
+							JOINT trapezius1.L
+							{
+								OFFSET	0.073380  -0.393423  -0.131335
+								CHANNELS 3 Zrotation Xrotation Yrotation
+									End Site
+									{
+										OFFSET	1.12812	-1.16035	0.353285
+									}
+							}
+						}
+						JOINT __platysma.R
+						{
+							OFFSET	-0.000000  1.107700  0.018908
+							CHANNELS 3 Zrotation Xrotation Yrotation
+							JOINT platysma.R
+							{
+								OFFSET	-0.530467  -0.414250  0.275858
+								CHANNELS 3 Zrotation Xrotation Yrotation
+									End Site
+									{
+										OFFSET	0.235444	-1.27186	0.309427
+									}
+							}
+						}
+						JOINT __platysma.L
+						{
+							OFFSET	-0.000000  1.107700  0.018908
+							CHANNELS 3 Zrotation Xrotation Yrotation
+							JOINT platysma.L
+							{
+								OFFSET	0.530467  -0.414250  0.275858
+								CHANNELS 3 Zrotation Xrotation Yrotation
+									End Site
+									{
+										OFFSET	-0.235444	-1.27186	0.309427
+									}
+							}
+						}
+						JOINT head
+						{
+							OFFSET	-0.000000  1.107700  0.018908
+							CHANNELS 3 Zrotation Xrotation Yrotation
+							JOINT __jaw
+							{
+								OFFSET	0.000000  1.267858  -0.051508
+								CHANNELS 3 Zrotation Xrotation Yrotation
+								JOINT jaw
+								{
+									OFFSET	0.000000  -1.302599  0.545750
+									CHANNELS 3 Zrotation Xrotation Yrotation
+									JOINT __tongue_base
+									{
+										OFFSET	0.000000  -0.752292  0.767692
+										CHANNELS 3 Zrotation Xrotation Yrotation
+										JOINT tongue_base
+										{
+											OFFSET	0.000000  0.412042  -0.642425
+											CHANNELS 3 Zrotation Xrotation Yrotation
+											JOINT tongue_mid
+											{
+												OFFSET	0.000000  0.036667  0.288650
+												CHANNELS 3 Zrotation Xrotation Yrotation
+												JOINT tongue_tip
+												{
+													OFFSET	0.000000  -0.001984  0.202392
+													CHANNELS 3 Zrotation Xrotation Yrotation
+														End Site
+														{
+															OFFSET	0.0	-0.089942	0.163292
+														}
+												}
+											}
+										}
+									}
+								}
+							}
+							JOINT __eye.R
+							{
+								OFFSET	0.000000  1.267858  -0.051508
+								CHANNELS 3 Zrotation Xrotation Yrotation
+								JOINT eye.R
+								{
+									OFFSET	-0.288938  -0.980011  1.162254
+									CHANNELS 3 Zrotation Xrotation Yrotation
+										End Site
+										{
+											OFFSET	-0.0114686	-0.0098443	0.226068
+										}
+								}
+							}
+							JOINT __uplid.L
+							{
+								OFFSET	0.000000  1.267858  -0.051508
+								CHANNELS 3 Zrotation Xrotation Yrotation
+								JOINT uplid.L
+								{
+									OFFSET	0.292500  -0.980011  1.162254
+									CHANNELS 3 Zrotation Xrotation Yrotation
+										End Site
+										{
+											OFFSET	0.0	0.0420556	0.255869
+										}
+								}
+							}
+							JOINT __uplid.R
+							{
+								OFFSET	0.000000  1.267858  -0.051508
+								CHANNELS 3 Zrotation Xrotation Yrotation
+								JOINT uplid.R
+								{
+									OFFSET	-0.291433  -0.980011  1.162254
+									CHANNELS 3 Zrotation Xrotation Yrotation
+										End Site
+										{
+											OFFSET	0.0	0.0494056	0.264119
+										}
+								}
+							}
+							JOINT __eye.L
+							{
+								OFFSET	0.000000  1.267858  -0.051508
+								CHANNELS 3 Zrotation Xrotation Yrotation
+								JOINT eye.L
+								{
+									OFFSET	0.288938  -0.980011  1.162254
+									CHANNELS 3 Zrotation Xrotation Yrotation
+										End Site
+										{
+											OFFSET	0.0114686	-0.0098443	0.226194
+										}
+								}
+							}
+							JOINT __lolid.L
+							{
+								OFFSET	0.000000  1.267858  -0.051508
+								CHANNELS 3 Zrotation Xrotation Yrotation
+								JOINT lolid.L
+								{
+									OFFSET	0.293900  -0.980011  1.162254
+									CHANNELS 3 Zrotation Xrotation Yrotation
+										End Site
+										{
+											OFFSET	0.0	-0.0999942	0.234768
+										}
+								}
+							}
+							JOINT __lolid.R
+							{
+								OFFSET	0.000000  1.267858  -0.051508
+								CHANNELS 3 Zrotation Xrotation Yrotation
+								JOINT lolid.R
+								{
+									OFFSET	-0.293900  -0.980011  1.162254
+									CHANNELS 3 Zrotation Xrotation Yrotation
+										End Site
+										{
+											OFFSET	0.0	-0.0999942	0.234768
+										}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	JOINT __hipside.R
+	{
+		OFFSET	-0.000000  1.460300  -0.233158
+		CHANNELS 3 Zrotation Xrotation Yrotation
+		JOINT hipside.R
+		{
+			OFFSET	0.000000  -1.954043  1.031750
+			CHANNELS 3 Zrotation Xrotation Yrotation
+				End Site
+				{
+					OFFSET	-1.13963	0.97281	-0.249267
+				}
+		}
+	}
+	JOINT __gluteus.R
+	{
+		OFFSET	-0.000000  1.460300  -0.233158
+		CHANNELS 3 Zrotation Xrotation Yrotation
+		JOINT gluteus.R
+		{
+			OFFSET	-1.013817  -1.541167  0.150421
+			CHANNELS 3 Zrotation Xrotation Yrotation
+				End Site
+				{
+					OFFSET	-0.00261676	-0.0124333	-0.889838
+				}
+		}
+	}
+	JOINT __pubis
+	{
+		OFFSET	-0.000000  1.460300  -0.233158
+		CHANNELS 3 Zrotation Xrotation Yrotation
+		JOINT pubis
+		{
+			OFFSET	0.000000  -1.954043  1.031750
+			CHANNELS 3 Zrotation Xrotation Yrotation
+				End Site
+				{
+					OFFSET	0.0	1.95404	-1.03175
+				}
+		}
+	}
+}
+MOTION
+Frames: 1
+Frame Time: 1.000000
+0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0

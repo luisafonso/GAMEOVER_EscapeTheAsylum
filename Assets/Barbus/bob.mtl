@@ -1,0 +1,104 @@
+# Blender MTL File: 'bob.blend'
+# Material Count: 9
+
+newmtl m_Glass
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd t_eye_r.tga
+
+newmtl m_bobBarbus_teeth
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd t_bobBarbus_head_d.tga
+
+newmtl m_bob_hair
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd t_bobBarbus_hair_dm.tga
+map_Disp t_bobBarbus_hair_n.tga
+
+newmtl mi_BobBarbus_Lashes
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd t_bobBarbus_caruncles.tga
+
+newmtl mi_BobBarbus_eye
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd t_bobBarbus_eye_d.tga
+map_Disp t_eye_n.tga
+
+newmtl mi_BobBarbus_face
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd t_bobBarbus_head_d.tga
+map_Ka t_bobBarbus_head_m.tga
+map_Disp t_BobBarbus_Head_n.tga
+
+newmtl mi_bobBarbus_lowerBody
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd t_bobBarbus_lowerBody_d.tga
+map_Disp t_bobBarbus_lowerBody_n.tga
+map_Ka t_bobBarbus_lowerBody_m.tga
+map_Ks t_bobBarbus_lowerBody_s.tga
+
+newmtl mi_bobBarbus_upperBody
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd t_bobBarbus_upperbody_d.tga
+map_Disp t_bobBarbus_upperbody_n.tga
+map_Ka t_bobBarbus_upperbody_m.tga
+map_Ks t_bobBarbus_upperbody_s.tga
+
+newmtl mi_bobHands
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd t_bobBarbus_handScalp_d.tga
+map_Ka t_bobBarbus_handScalp_m.tga
+map_Disp t_bobBarbus_handScalp_n.tga
